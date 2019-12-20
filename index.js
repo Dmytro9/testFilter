@@ -1,7 +1,7 @@
 const express = require("express");
 const requestIp = require("request-ip");
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 443;
 const app = express();
 
 app.get("/api/v1/data", (req, res) => {
